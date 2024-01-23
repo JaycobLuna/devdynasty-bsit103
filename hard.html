@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Della+Respira&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="earth.png">
+    <title>Hard Level</title>
+</head>
+<body>
+    <nav> 
+        <div class="heading">
+           <ul>
+            <div class="logo-box"><a href="home.html"><img src="assets/logo.png" alt=""></div></a>
+            <h1>DevDynasty</h1>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="login.html">Log-In</a></li>
+            <li><a href="profile.html">Profile</a></li>
+           </ul>
+        </div>
+        <div class="top-right">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul>
+                <li><a href="#">Sign in <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
+                  </svg>
+                  </a></li>
+            </ul>
+        </div>
+    </nav>
+    <main class="quiz">
+
+        <section class="quiz-container">
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                1. What was a significant lesson learned from the Tahrir Square protests regarding the effectiveness of nonviolent resistance compared to jihadi ideologies?
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="false">A. Extremist groups' successful leadership </li>
+                        <li data-correct="false">B. The importance of divine intervention </li>
+                        <li data-correct="true">C. Nonviolent struggle's moral and strategic legitimacy</li>
+                        <li data-correct="false">D. The necessity of adopting terrorist tactics</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                    2. What does the passage suggest about the effectiveness of nonviolent protests in comparison to violent strategies in achieving political change?
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="false">A. Nonviolent protests are always more effective than violent strategies </li>
+                        <li data-correct="false">B. Violent strategies are more successful in the long run </li>
+                        <li data-correct="true">C. The effectiveness depends on the context and the support of the military</li>
+                        <li data-correct="false">D. Both nonviolent and violent strategies have similar success rates</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                    3. Which statement best describes Meir Kahane's impact on the Middle East?
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="false">A. Limited influence among Jewish extremists </li>
+                        <li data-correct="true">B. Significant influence on radical Muslim movements</li>
+                        <li data-correct="false">C. Sparked religious revival among Jews</li>
+                        <li data-correct="false">D. End of influence after assassination</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                    4. What is a reason for double standards in economic strategies between developed and developing nations during crises?
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="true">A. To deepen poverty in the global south </li>
+                        <li data-correct="false">B. To promote global equality</li>
+                        <li data-correct="false">C. To foster economic stability </li>
+                        <li data-correct="false">D. To encourage equal economic growth</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                    5. What is possibly highlighted by the coexistence of global symbols and poverty?
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="false">A. Promotion of local businesses </li>
+                        <li data-correct="false">B. Emphasis on cultural diversity</li>
+                        <li data-correct="true">C. Illustration of globalization's impacts</li>
+                        <li data-correct="false">D. Encouragement of equal economic growth</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                    6. What might people's responses to globalization projects indicate? 
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="false">A. Decreased cultural diversity </li>
+                        <li data-correct="false">B. Reduction in global inequality</li>
+                        <li data-correct="true">C. Growing political engagement</li>
+                        <li data-correct="false">D. Limited social awareness</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                    7. What was the primary goal of anticolonialism in the global south? 
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="false">A. Emphasizing Western ideologies</li>
+                        <li data-correct="false">B. Encouraging colonial expansion</li>
+                        <li data-correct="true">C. Creating solidarity among colonized states</li>
+                        <li data-correct="false">D. Strengthening capitalist dominance</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                    8. Can you define the term "global city" in your own words?
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="false">A. A city operating solely in national boundaries </li>
+                        <li data-correct="true">B. A city significant in global trade and influence historically </li>
+                        <li data-correct="false">C. A city disconnected from historical networks</li>
+                        <li data-correct="false">D. A city influenced by modern technologies</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                    9. Why was language considered a crucial tool for early humans during their movement across the world?  
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="false">A. It limited technology spread</li>
+                        <li data-correct="false">B. It hindered adaptation </li>
+                        <li data-correct="true">C. It enabled cooperation and sharing of information</li>
+                        <li data-correct="false">D.  It prevented coordination during hunts</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                    10. What is one of the challenges posed by globalization?
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="false">A. Limited access to information and technology </li>
+                        <li data-correct="false">B. Decreased economic growth </li>
+                        <li data-correct="false">C. Decreased cultural exchange</li>
+                        <li data-correct="true">D. Job displacement and income inequality</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quiz-wrapper " onclick="toggleDropdown(this)">
+                <span>
+                    11. Which of the following is the function of the World Trade Organization (WTO)?
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="false">A. Offers bank products and services to nations </li>
+                        <li data-correct="false">B. Submits the trading products to different countries </li>
+                        <li data-correct="false">C. Submits the trading products to different countries</li>
+                        <li data-correct="true">D. Regulates international trade between nations</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                    12. Which of the following statements reminds us of globalization?
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="false">A. Globalization makes people poor or rich </li>
+                        <li data-correct="true">B. Globalization creates undersides </li>
+                        <li data-correct="false">C. Globalization moves backward</li>
+                        <li data-correct="false">D. Globalization makes rich people poor</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                    13. What is the potential outcome if the global war continues unchecked?
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="false">A. Global economic boom </li>
+                        <li data-correct="false">B. Worldwide environmental recovery</li>
+                        <li data-correct="true">C. Widespread devastation and loss of life</li>
+                        <li data-correct="false">D. Increased diplomatic cooperation</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                    14. Which of these is NOT a positive effect of Globalization:
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="true">A. Interdependence </li>
+                        <li data-correct="false">B. Foreign Direct Investment</li>
+                        <li data-correct="false">C. Technological Innovation</li>
+                        <li data-correct="false">D. Growing Economies</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                    15. Which of these is NOT a negative effect of Globalization:
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="false">A. Economic Inequality and Exploitation </li>
+                        <li data-correct="false">B. Public Health Concerns</li>
+                        <li data-correct="false">C. Loss of Cultural Identity</li>
+                        <li data-correct="true">D. Culinary Diversity</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                    16. How is the global interstate system related to the structural aspects of globalization?
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="false">A. It ensures the proper functioning of international transportation and logistics, facilitating global trade </li>
+                        <li data-correct="true">B. It is a framework that governs the political relationship and power dynamics between nations </li>
+                        <li data-correct="false">C. It represents a global regulatory framework for standardizing laws and regulations across countries</li>
+                        <li data-correct="false">D. It promotes cultural exchange and understanding among nations by facilitating international travel</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                    17. Which term best describes the contemporary global governance structure?
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="true">A. Fragmented - with multiple international organizations having overlapping roles and authority  </li>
+                        <li data-correct="false">B. Centralized - with a single global government having ultimate decision-making power </li>
+                        <li data-correct="false">C. Nonexistent - global governance is yet to be established in the current world order</li>
+                        <li data-correct="false">D. Regionalized - with regional organizations holding primary responsibility for global governance</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                    18.  In what way does the historical context of the 1920s contribute to the emergence of the term 'media'?
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="true">A. It reflects concerns about the negative impact of various forms of media on society </li>
+                        <li data-correct="false">B. It highlights the positive aspects of media as a means of communication </li>
+                        <li data-correct="false">C. It underscores the long-standing use of media in human communication</li>
+                        <li data-correct="false">D. It focuses on the technological advancements that shaped media during that period</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                    19. What technological innovation played a crucial role in revolutionizing the production and circulation of reading material?
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="false">A. Cave paintings </li>
+                        <li data-correct="true">B. Movable wooden blocks </li>
+                        <li data-correct="false">C. Oral communication</li>
+                        <li data-correct="false">D. Stone carvings</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                    20. What positive attributes are typically associated with the term "global village," as mentioned in the passage?
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="false">A. Economic injustice and political repression </li>
+                        <li data-correct="true">B. Cooperation, kinship, and fraternity </li>
+                        <li data-correct="false">C. Exploitation in pursuit of property, profit, and power</li>
+                        <li data-correct="false">D. Despoiling the globe through media technology</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                    21. What aspect of cultural production does Howard Becker's "Art Worlds" emphasize in understanding the creation of music and other forms of art?
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="false">A. Evaluating </li>
+                        <li data-correct="true">B. Creating  </li>
+                        <li data-correct="false">C. Analyzing</li>
+                        <li data-correct="false">D. Remembering</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                    22. What is the term that Charles Taylor uses to describe the shift in frameworks of understanding that characterizes the modern secular world?
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="false">A. Secularization </li>
+                        <li data-correct="false">B. Rationalization</li>
+                        <li data-correct="false">C. Pluralization </li>
+                        <li data-correct="true">D. Disenchantment</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                    23. It's seen as the active project that is articulated alongside the Western modernity of the post-
+                    1500 world (Calhoun, Juergensmeyer, and Van Antwerpen, 2011; Gorski and Altinordou, 2008).                    
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="false">A. Secularization  </li>
+                        <li data-correct="false">B. Secularizational</li>
+                        <li data-correct="false">C. None of the Above</li>
+                        <li data-correct="true">D. Secularism</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                    24. What is the earliest known use of the word "globalize"?
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="true">A. 1944  </li>
+                        <li data-correct="false">B. 1983  </li>
+                        <li data-correct="false">C. 1990s </li>
+                        <li data-correct="false">D. 2000s </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                    25. Who is credited with popularizing the term "globalization"?
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="true">A. Theodore Levit </li>
+                        <li data-correct="false">B. Merriam-Webster</li>
+                        <li data-correct="false">C. The Queen</li>
+                        <li data-correct="false">D. The French</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                    26.  In what language is the word for "globalization" "utandawazi"?
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="false">A. English </li>
+                        <li data-correct="false">B. French</li>
+                        <li data-correct="false">C. Chinese</li>
+                        <li data-correct="true">D. Kishwahili</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                    27. In the context of global conflict, how can religion be seen as both a source of division and a potential catalyst for peace?
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="false">A. Only as a source of division </li>
+                        <li data-correct="false">B. Only as a catalyst for peace</li>
+                        <li data-correct="true">C. Both as a source of division and a catalyst for peace</li>
+                        <li data-correct="false">D. Neither a source of division nor a catalyst for peace</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                    28. What term describes the phenomenon where religious identities become intertwined with political ideologies, contributing to global conflicts?
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="false">A. Religious pluralism </li>
+                        <li data-correct="false">B. Secularization </li>
+                        <li data-correct="true">C. Theocracy </li>
+                        <li data-correct="false">D. Syncretism</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                    29. How might religious pluralism contribute to the resolution of global conflicts?
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="false">A. By promoting exclusivity</li>
+                        <li data-correct="true">B. By fostering tolerance and coexistence</li>
+                        <li data-correct="false">C. By emphasizing political differences</li>
+                        <li data-correct="false">D. By encouraging isolationism</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                    30. In the context of religion and global conflict, what role does interfaith dialogue play in promoting understanding and peace?
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="false">A. It exacerbates tensions between religious groups</li>
+                        <li data-correct="false">B. It encourages isolationism</li>
+                        <li data-correct="true">C. It fosters understanding and cooperation</li>
+                        <li data-correct="false">D. It has no impact on global conflicts</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                    31. How can globalization influence the dynamics of religious conflict on a global scale?
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="false">A. By promoting cultural isolation </li>
+                        <li data-correct="false">B. By reducing religious diversity</li>
+                        <li data-correct="true">C. By facilitating the spread of religious ideas and tensions</li>
+                        <li data-correct="false">D. By diminishing the role of religion in societies</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                    32. Which of the following is NOT a dimension of economic globalization?
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="false">A. Globalization of trade of goods and services</li>
+                        <li data-correct="false">B. Globalization of financial and capital markets  </li>
+                        <li data-correct="false">C. Globalization of technology and communication </li>
+                        <li data-correct="true">D. Globalization of political systems </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                    33. According to Szentes, economic globalization is a process that makes the world economy an "organic system" by:
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="false">A. Extending transnational economic processes and economic relations to more and more countries </li>
+                        <li data-correct="true">B. Deepening the economic interdependencies among countries  </li>
+                        <li data-correct="false">C. Both A and B</li>
+                        <li data-correct="false">D. Neither A nor B</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                    34. Hyperglobalists like Ohmae believe that:
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="false">A. States are still the primary economic organization units</li>
+                        <li data-correct="false">B. States have ceased to exist as primary economic organization units   </li>
+                        <li data-correct="true">C. The nation-state is irrelevant in the global economy</li>
+                        <li data-correct="false">D. Economic globalization is a myth</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                    35. How does market integration relate to other aspects of globalization? 
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="false">A. Market integration is entirely separate from globalization </li>
+                        <li data-correct="true">B. Market integration is a subset of globalization,focusing an economic connections  </li>
+                        <li data-correct="false">C. Market integration is synonyms with cultural globalization.tod </li>
+                        <li data-correct="false">D. Market integration encompasses all aspects of globalization. Tetonstoi Cainil</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                    36. What is one of the common problems often associated with marketing integration?
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="false">A. Decrease economic growth  </li>
+                        <li data-correct="false">B. Limited access to international market</li>
+                        <li data-correct="true">C. Increased trade barriers </li>
+                        <li data-correct="false">D. Enhanced cooperation among nations</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                    37. What were some of the motives behind market integration? 
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="false">A. Isolationism and protectionism </li>
+                        <li data-correct="true">B. Fostering economic growth and prosperity</li>
+                        <li data-correct="false">C. Reducing competition among nations</li>
+                        <li data-correct="false">D. Strengthening national awareness</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                    38. How can market integration be implemented effectively?
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="false">A. by imposing strict trade barriers and tariffs </li>
+                        <li data-correct="false">B. by isolating domestic markets from international influencer</li>
+                        <li data-correct="true">C. by promoting free trade regulatory harmonization and collaboration among nations</li>
+                        <li data-correct="false">D. by limiting international cooperation and agreements</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                    39. What changes to market integration would you recommend to address its changes?
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="false">A. Increase protectionist measures and trades barriers </li>
+                        <li data-correct="true">B. Enhance transparency and regulatory harmonization  </li>
+                        <li data-correct="false">C. Isolated domestic markets from global influences</li>
+                        <li data-correct="false">D. Decrease international cooperation and agreements</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                    40. According to the passage, what strategy did many Egyptian activists believe would work against the Mubarak regime before the Arab Spring protests
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="false">A. Peaceful protests through social media </li>
+                        <li data-correct="false">B. Nonviolent resistance and interfaith cooperation</li>
+                        <li data-correct="true">C. Violent acts of terrorism based on jihadi ideology</li>
+                        <li data-correct="false">D. Military intervention by foreign powers</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                    41. What role did Tahrir Square play in the protests against the Mubarak regime?
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="false">A. It served as the headquarters for the Egyptian military </li>
+                        <li data-correct="false">B. It provided a platform for jihadi extremists to rally support</li>
+                        <li data-correct="true">C. It was a catalyst for nonviolent change and a symbol of interfaith cooperation</li>
+                        <li data-correct="false">D. It was the center for planning and executing terrorist attacks</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                    42. What is the main argument regarding the impact of Tahrir Square on the global jihadi theology?
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="false">A. Tahrir Square reinforced the jihadi ideology and its effectiveness </li>
+                        <li data-correct="true">B. The success of nonviolent protests challenged the legitimacy of jihadi violence</li>
+                        <li data-correct="false">C. The jihadi ideology gained more followers after Tahrir Square</li>
+                        <li data-correct="false">D. Tahrir Square had no significant impact on jihadi theology</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                    43. In what year did the assassination of Egypt President Mohammad Anwar al Sadat occur?
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="false">A. 1971 </li>
+                        <li data-correct="false">B. 1976  </li>
+                        <li data-correct="true">C. 1981 </li>
+                        <li data-correct="false">D. 1976 </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                    44. He is the political head of the Hamas movement who believed that dishonoring someone is the worst act one can do.
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="false">A. Khalid Shaikh Mohammad</li>
+                        <li data-correct="true">B. Baruch Goldstein</li>
+                        <li data-correct="false">C. Jayaprakash Narayan</li>
+                        <li data-correct="false">D. Meir Kahane</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                    45. What religious movement caused the assassination of Mohammad Anwar al Sadat?
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="false">A. Shi'ite movement </li>
+                        <li data-correct="false">B. Gandhian movement </li>
+                        <li data-correct="false">C. Al Qaeda movement</li>
+                        <li data-correct="true">D. Khalistani movement</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                    46. He is a Brooklyn-born Rabbi who believed believed that the military successes of Israel would precede a great moment in Jewish history                    
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="false">A. Khalid Shaikh Mohammad</li>
+                        <li data-correct="false">B. Baruch Goldstein </li>
+                        <li data-correct="false">C. Jayaprakash Narayan</li>
+                        <li data-correct="true">D. Meir Kahane</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                    47. Who took the lead in the anticolonial movement following the Bolshevik revolution?
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="false">A. Socialist internationalists  </li>
+                        <li data-correct="true">B. Communist International (Comintern)  </li>
+                        <li data-correct="false">C. Colonial elites</li>
+                        <li data-correct="false">D. Western capitalist leaders</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                    48. What event marked the genesis of the non-aligned movement and anti-colonial collaboration?
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="false">A. Bolshevik revolution </li>
+                        <li data-correct="true">B. Bandung Conference  </li>
+                        <li data-correct="false">C. Fall of the Berlin Wall</li>
+                        <li data-correct="false">D. World War II </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                    49. What heightened the international Left's interest in the post-colonial world during the 1960s and 1970s?
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="false">A. Rise of Western capitalist ideologies </li>
+                        <li data-correct="true">B. Influence of Third World revolutionary leaders </li>
+                        <li data-correct="false">C. Emergence of territorial nation-states </li>
+                        <li data-correct="false">D. Collapse of colonial empires</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quiz-wrapper" onclick="toggleDropdown(this)">
+                <span>
+                    50. What factor has affected the coherence of old Third Worldism in contemporary times?
+                </span>
+                <div class="quiz-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                  </svg>
+                  </div>
+                  <div class="dropdown">
+                    <ul>
+                        <li data-correct="true">A. Increased involvement of Third World countries in Western capitalism </li>
+                        <li data-correct="false">B. Reinforcement of territorial nation-states  </li>
+                        <li data-correct="false">C. Significance of the fall of the Berlin Wall</li>
+                        <li data-correct="false">D. Expansion of socialist internationalism</li>
+                    </ul>
+                </div>
+            </div>
+            <a href="answerhard.html"><button class="quiz-btn">Continue</button></a>
+        </section>
+    </main>
+    <script src="quiz.js"></script>
+</body>
+</html>

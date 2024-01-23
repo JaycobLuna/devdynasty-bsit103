@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--CSS-->
+    <style>
+ body {
+ background-color: #111;
+ overflow: hidden;
+}
+
+.cursor {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 30px;
+ height: 30px;
+ background: rgba(255, 255, 255, 0.7);
+ border-radius: 50%;
+ pointer-events: none;
+ transition: transform 0.1s ease, background 0.1s ease;
+ mix-blend-mode: difference;
+}
+
+.cursor-dot {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ border-radius: 50%;
+ background: #fff;
+}
+
+.about-us {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ text-align: center;
+}
+
+.about-us h1 {
+ color: #fff;
+ font-size: 48px;
+ margin-bottom: 30px;
+}
+
+.about-us p {
+ color: #fff;
+ font-size: 24px;
+ margin-bottom: 30px;
+}
+
+#cursor-text {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: #fff;
+ font-size: 24px;
+ opacity: 0;
+ transition: opacity 0.3s ease;
+
+}
+
+.social-icons {
+ margin-top: 20px;
+}
+
+.social-icons a {
+ color: #fff;
+ font-size: 24px;
+ margin: 0 10px;
+ text-decoration: none;
+}
+
+.social-icons a:hover {
+ color: #00f; /* Change the color on hover */
+}
+
+
+    </style>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>About Us</title>
+</head>
+
+<body>
+ <div class="cursor" id="cursor"></div>
+ <div class="about-us">
+  <h1>About Us</h1>
+  <p>DevDynasty, a collective of adept college students enrolled in STI College Cubao's BSIT103 program, proudly presents their newly developed quiz game website. Crafted under our professor, Sir Rafael Riesgo, this endeavor exemplifies a commitment to technological excellence and educational innovation, offering users an intellectually stimulating experience.</p>
+  <p>feel free to contact aldrin lim pag babae ka.</p>
+  <p id="cursor-text">You can click back to go back home <33.</p>
+ </div>
+
+ <div class="social-icons">
+    <a href="https://www.facebook.com/itsmealdrinlim16" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+    <a href="https://www.instagram.com/andrwvllcrte_/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+  </div>
+ 
+
+ <!--JavaScript-->
+ <script>
+const cursor = document.getElementById('cursor');
+const cursorText = document.getElementById('cursor-text');
+
+document.addEventListener('mousemove', (e) => {
+ cursor.style.left = e.clientX + 'px';
+ cursor.style.top = e.clientY + 'px';
+ cursorText.style.left = e.clientX + 'px';
+ cursorText.style.top = e.clientY + 'px';
+ cursorText.style.opacity = 1;
+});
+
+document.addEventListener('mouseleave', () => {
+ cursorText.style.opacity = 0;
+});
+
+ </script>
+</body>
+</html>
